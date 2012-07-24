@@ -1,10 +1,6 @@
 roguelike
 =========
 
-Here you could find the code for "Roguelike game in C++", for more informations visit the project webpage:
-
-[http://solarianprogrammer.com/2012/07/12/roguelike-game-cpp-11-part-0/](http://solarianprogrammer.com/2012/07/12/roguelike-game-cpp-11-part-0/)
-
 All posts from this series:
 
 * [Roguelike game in C++ - Introduction](http://solarianprogrammer.com/2012/07/12/roguelike-game-cpp-11-part-0/)
