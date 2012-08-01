@@ -7,6 +7,7 @@ All posts from this series:
 * [Roguelike game in C++ - Bootstrap](http://solarianprogrammer.com/2012/07/12/roguelike-game-cpp-11-part-1/)
 * [Roguelike game in C++ - Adding a map to the game](http://solarianprogrammer.com/2012/07/16/roguelike-game-cpp-11-part-2/)
 * [Roguelike game in C++ - Map generation with Perlin noise](http://solarianprogrammer.com/2012/07/25/roguelike-game-cpp-11-part-3/)
+* [Roguelike game in C++ - Adding a rudimentary monster to the game](http://solarianprogrammer.com/2012/08/01/roguelike-game-cpp-11-part-4/)
 
 You could use this program under the terms of GPL v3, for more details see:
 
