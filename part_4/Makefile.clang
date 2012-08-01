@@ -1,0 +1,20 @@
+main = rgame_10.cpp
+main_o = rgame_10.o
+
+src = PerlinNoise.cpp Character.cpp Frame.cpp Screen.cpp $(main)
+obj = PerlinNoise.o Character.o Frame.o Screen.o $(main_o)
+
+rgame: $(obj)
+	clang++ -stdlib=libc++ -o rgame $(obj) -lncurses
+
+PerlinNoise.o: PerlinNoise.h
+Character.o: Character.h
+Frame.o: Frame.h PerlinNoise.h
+Screen.o: Screen.h
+$(main_o): Screen.h Frame.h Character.h
+
+$(obj): $(src)
+	clang++ -std=c++11 -stdlib=libc++ -c $(src)
+
+clean:
+	rm $(obj) rgame
